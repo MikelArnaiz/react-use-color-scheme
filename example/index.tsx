@@ -1,12 +1,13 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Thing } from '../.';
+import { useColorScheme } from '../src/useColorScheme';
 
 const App = () => {
+  const colorScheme = useColorScheme();
   return (
     <div>
-      <Thing />
+      <h3>{colorScheme}</h3>;
     </div>
   );
 };

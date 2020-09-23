@@ -1,5 +1,11 @@
 Hooks for Color Scheme
 
+## Install
+
+```
+yarn add react-use-color-scheme
+```
+
 ## Usage
 
 ```jsx
